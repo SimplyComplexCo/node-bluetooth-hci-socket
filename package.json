@@ -30,9 +30,6 @@
     "debug": "^2.2.0",
     "nan": "^2.0.5"
   },
-  "optionalDependencies": {
-    "usb": "^1.0.6"
-  },
   "devDependencies": {
     "jshint": "^2.8.0"
   }

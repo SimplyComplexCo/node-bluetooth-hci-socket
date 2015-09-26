@@ -7,6 +7,11 @@
           'sources': [
             'src/BluetoothHciSocket.cpp'
           ]
+        }],
+        ['OS=="windows"', {
+          'sources': [
+            'src/BluetoothHciSocket.cpp'
+          ]
         }]
       ],
       "include_dirs" : [
