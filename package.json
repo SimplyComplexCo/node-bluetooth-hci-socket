@@ -3,6 +3,9 @@
   "version": "0.3.3",
   "description": "Bluetooth HCI socket binding for Node.js",
   "main": "index.js",
+  "config": {
+    "runtime": "electron"
+  },
   "scripts": {
     "test": "jshint lib/*.js"
   },
@@ -31,7 +34,7 @@
     "nan": "^2.0.5"
   },
   "optionalDependencies": {
-    "usb": "^1.1.0"
+    "usb": "github://nonolith/node-usb.git"
   },
   "devDependencies": {
     "jshint": "^2.8.0"
