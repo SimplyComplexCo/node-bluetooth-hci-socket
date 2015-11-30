@@ -28,6 +28,7 @@ __WARNING:__ This will make the adapter unavaible in Windows Bluetooth settings!
 |:---- | :------ | :-------|
 | BCM920702 Bluetooth 4.0 | 0x0a5c | 0x21e8 |
 | CSR8510 A10 | 0x0a12 | 0x0001 |
+| Asus BT-400 | 0x0b05 | 0x17cb |
 
 ## Install
 
@@ -66,6 +67,14 @@ bluetoothHciSocket.setFilter(filter);
 ```javascript
 bluetoothHciSocket.bindRaw([deviceId]); // optional deviceId (integer)
 ```
+
+##### User Channel
+
+```javascript
+bluetoothHciSocket.bindUser([deviceId]); // optional deviceId (integer)
+```
+
+Requires the device to be in the powered down state (```sudo hciconfig hciX down```).
 
 ##### Control Channel
 

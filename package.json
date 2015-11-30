@@ -1,6 +1,6 @@
 {
   "name": "bluetooth-hci-socket",
-  "version": "0.3.3",
+  "version": "0.4.1",
   "description": "Bluetooth HCI socket binding for Node.js",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,11 @@
     "nan": "^2.0.5"
   },
   "optionalDependencies": {
+<<<<<<< HEAD
     "usb": "github://SimplyComplexCo/node-usb#electron"
+=======
+    "usb": "^1.1.0"
+>>>>>>> 0.4.1
   },
   "devDependencies": {
     "jshint": "^2.8.0"
