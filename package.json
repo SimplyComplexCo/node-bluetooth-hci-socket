@@ -31,11 +31,7 @@
     "nan": "^2.0.5"
   },
   "optionalDependencies": {
-<<<<<<< HEAD
     "usb": "github://SimplyComplexCo/node-usb#electron"
-=======
-    "usb": "^1.1.0"
->>>>>>> 0.4.1
   },
   "devDependencies": {
     "jshint": "^2.8.0"
